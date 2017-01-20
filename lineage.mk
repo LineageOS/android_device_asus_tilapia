@@ -11,15 +11,12 @@ $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 # Inherit telephony common stuff
 $(call inherit-product, vendor/cm/config/telephony.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/asus/tilapia/full_tilapia.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tilapia
-PRODUCT_NAME := cm_tilapia
+PRODUCT_NAME := lineage_tilapia
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
